@@ -1,3 +1,5 @@
 .vscode/
 *.swp
 a.out
+main.hi
+main
