@@ -7,6 +7,7 @@ char getChar(char charString[1000]) {
     int r = rand() % strlen(charString);
     return charString[r];
 }
+
 int main() {
     srand(time(NULL));
     int len = 10;
