@@ -24,26 +24,18 @@ int main() {
     for (int i=0; i < len; i++) {
         switch (i) {
         case 0:
-            printf("%c", getChar(capitals));
-            break;
         case 1:
             printf("%c", getChar(capitals));
             break;
         case 2:
-            printf("%c", getChar(lowercase));
-            break;
         case 3:
             printf("%c", getChar(lowercase));
             break;
         case 4:
-            printf("%c", getChar(numbers));
-            break;
         case 5:
             printf("%c", getChar(numbers));
             break;
         case 6:
-            printf("%c", getChar(specials));
-            break;
         case 7:
             printf("%c", getChar(specials));
             break;

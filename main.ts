@@ -14,26 +14,18 @@ function getChar(charString: string): string {
 for (let i = 0; i < len; i++) {
   switch (i) {
     case 0:
-      password += getChar(capitals);
-      break;
     case 1:
       password += getChar(capitals);
       break;
     case 2:
-      password += getChar(lowercase);
-      break;
     case 3:
       password += getChar(lowercase);
       break;
     case 4:
-      password += getChar(numbers);
-      break;
     case 5:
       password += getChar(numbers);
       break;
     case 6:
-      password += getChar(specials);
-      break;
     case 7:
       password += getChar(specials);
     default:

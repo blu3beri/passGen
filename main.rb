@@ -14,21 +14,13 @@ def main
     
     for i in 1...len
         case i
-        when 0
+        when 0, 1
             password += getChar(capitals)
-        when 1
-            password += getChar(capitals)
-        when 2
+        when 2, 3
             password += getChar(lowercase)
-        when 3
-            password += getChar(lowercase)
-        when 4
+        when 4, 5
             password += getChar(numbers)
-        when 5
-            password += getChar(numbers)
-        when 6
-            password += getChar(specials)
-        when 7
+        when 6, 7
             password += getChar(specials)
         else
             password += getChar(combined)

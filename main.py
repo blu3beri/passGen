@@ -15,21 +15,13 @@ def getChar(charString):
 
 
 for i in range(password_length):
-    if i == 0:
+    if i == 0 or i == 1:
         password += getChar(capitals)
-    elif i == 1:
-        password += getChar(capitals)
-    elif i == 2:
+    elif i == 2 or i == 3:
         password += getChar(lowercase)
-    elif i == 3:
-        password += getChar(lowercase)
-    elif i == 4:
+    elif i == 4 or i == 5:
         password += getChar(numbers)
-    elif i == 5:
-        password += getChar(numbers)
-    elif i == 6:
-        password += getChar(specials)
-    elif i == 7:
+    elif i == 6 or i == 7:
         password += getChar(specials)
     else:
         password += getChar(combined)
