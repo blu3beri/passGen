@@ -15,8 +15,6 @@ int main() {
     char numbers[1000] = "0123456789";
     char specials[1000] = "~!#$&()*+,-./:;<=>?@";
     char combined[1000] = "";
-    char password[1000] = "";
-    char buff[1000];
     strcat(combined, capitals);
     strcat(combined, lowercase);
     strcat(combined, numbers);
