@@ -4,7 +4,7 @@ fun getChar(charString: String): String {
 }
 
 fun main(args: Array<String>) {
-	val len: Int = 10;
+	val len = 10;
 	val capitals = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	val lowercase = "abcdefghijklmnopqrstuvwxyz";
 	val numbers = "0123456789";
