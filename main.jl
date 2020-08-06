@@ -1,4 +1,4 @@
-function getChar(charString)
+function getChar(charString)::Char
 	r = rand(1:length(charString))
 	return charString[r]
 end
