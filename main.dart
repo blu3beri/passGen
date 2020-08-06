@@ -1,5 +1,11 @@
 import 'dart:math';
 
+String getChar(String charString) {
+  int length = charString.length;
+  Random rand = new Random();
+  return charString[rand.nextInt(length - 1)];
+}
+
 void main() {
   int len = 10;
   String capitals = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -43,10 +49,4 @@ void main() {
     }
   }
   print(password);
-}
-
-String getChar(String charString) {
-  int length = charString.length;
-  Random rand = new Random();
-  return charString[rand.nextInt(length - 1)];
 }
