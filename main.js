@@ -5,10 +5,12 @@ var numbers = '0123456789';
 var specials = '~!"#$%&()*+,-./:;<=>?@';
 var combined = capitals.concat(lowercase, numbers, specials);
 var password = '';
+
 function getChar(charString) {
     var ran = +(Math.random() * (charString.length - 1) + 0).toFixed(0);
     return charString[ran];
 }
+
 for (var i = 0; i < len; i++) {
     switch (i) {
         case 0:
@@ -31,4 +33,5 @@ for (var i = 0; i < len; i++) {
             break;
     }
 }
+
 console.log(password);

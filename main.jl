@@ -10,7 +10,7 @@ function main()
 	numbers = "0123456789"
 	specials = "~!#%&()*+,-./:;<=>?@"
 	combined = string(capitals,lowercase,numbers,specials)
-		password = "\0"
+	password = "\0"
 
 		for i = 0:len
 			if i == 0 || i == 1
