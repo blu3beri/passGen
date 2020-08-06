@@ -32,5 +32,4 @@ function main ()
     print(password)
 end
 
-
 main()
